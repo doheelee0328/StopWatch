@@ -1,0 +1,50 @@
+body {
+  background: url(https://wallpaperaccess.com/full/1093815.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 50%;
+  height: 250px;
+  border-radius: 30px;
+  background-color: rgb(97 97 97 / 86%);
+  box-shadow: 1px 0px 1px 1px #9c9a9a;
+  opacity: 0.8;
+}
+
+#timer {
+  width: 100%;
+  font-size: 72px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px 30px 30px 20px;
+  text-transform: capitalize;
+  color: white;
+}
+
+.buttons {
+  text-align: center;
+}
+
+button {
+  font-size: 2rem;
+  padding: 10px;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 50px;
+}
+
+button:hover {
+  background-color: #e8e2d5;
+}
+
+button:active {
+  background-color: #9c9a9a;
+}
