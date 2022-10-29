@@ -89,4 +89,4 @@ reset.addEventListener("click", function () {
 });
 
 /* The reset button stops with the clearinterval method but we want to revert the seconds, minutes 
-and hours to 0, we are going to display that with 00:00:00 */
+and hours to 0,,we are going to display that with 00:00:00 */
